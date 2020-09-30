@@ -1,0 +1,524 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User logs in the BGP Portal",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 62562470700,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@id\u003d\u0027go-to-grant\u0027]\"}\n  (Session info: chrome\u003d84.0.4147.125)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-9738CE5M\u0027, ip: \u0027192.168.1.89\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: C:\\Users\\varun\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53220}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 066137d500c649ae99ee1f439e49b594\n*** Element info: {Using\u003dxpath, value\u003d//button[@id\u003d\u0027go-to-grant\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinitions.StepDef_Form.user_navigates_to_MRA_form_page_after_login(StepDef_Form.java:71)\r\n\tat ✽.Given user navigates to MRA form page after login(MRAForm.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user navigates to MRA form page after login",
+            "match": {
+              "location": "StepDef_Form.user_navigates_to_MRA_form_page_after_login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "User validate the Eligibility section",
+        "description": "",
+        "id": "mra-form;user-validate-the-eligibility-section",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user validates questions in the form",
+            "match": {
+              "location": "StepDef_Form.user_validates_questions_in_the_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user answers no to any question",
+            "match": {
+              "location": "StepDef_Form.user_answers_no_to_any_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user should get a warning message as expected",
+            "match": {
+              "location": "StepDef_Form.user_should_get_a_warning_message_as_expected()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user click on link in Warning message a new tab opens",
+            "match": {
+              "location": "StepDef_Form.user_click_on_link_in_warning_message_a_new_tab_opens()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user switch new tab and validates the URL",
+            "match": {
+              "location": "StepDef_Form.user_switch_new_tab_and_validates_the_URL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user select the answer to each mandatory question",
+            "match": {
+              "location": "StepDef_Form.he_select_the_answer_to_each_mandatory_question()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user save the form after click on the button",
+            "match": {
+              "location": "StepDef_Form.he_save_the_form_after_click_on_the_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user refresh the page",
+            "match": {
+              "location": "StepDef_Form.user_refresh_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user validates the text of question which should be as expected",
+            "match": {
+              "location": "StepDef_Form.user_validates_the_text_of_question_which_should_be_as_expected()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user close the browser",
+            "match": {
+              "location": "StepDef_Form.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User logs in the BGP Portal",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18137687200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to MRA form page after login",
+            "match": {
+              "location": "StepDef_Form.user_navigates_to_MRA_form_page_after_login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Do basic validation for contact details page",
+        "description": "",
+        "id": "mra-form;do-basic-validation-for-contact-details-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 992719000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user navigates to contact details sections",
+            "match": {
+              "location": "StepDef_Form.user_navigates_to_contact_details_sections_after_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12094003100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user validates Main contact person subsection with inputs",
+            "match": {
+              "location": "StepDef_Form.user_validates_main_contact_person_subsection_with_inputs()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127649300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user checks that Block House No and Street details auto populates with Valid postal code",
+            "match": {
+              "location": "StepDef_Form.user_checks_that_block_house_no_and_street_details_auto_populates_with_valid_postal_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 253081100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "on clicking checkbox Same as registered address in Company Profile user validates auto population of Mailing address",
+            "match": {
+              "location": "StepDef_Form.on_clicking_checkbox_same_as_registered_address_in_company_profile_user_validates_auto_population_of_mailing_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 768919200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user validates Letter of Offer Addressee subsection with input",
+            "match": {
+              "location": "StepDef_Form.user_validates_letter_of_offer_addressee_subsection_with_input()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5222497400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user validates option for same as main contact person with auto populate",
+            "match": {
+              "location": "StepDef_Form.user_validates_option_for_same_as_main_contact_person_with_auto_populate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122007200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user save the form after click on the button",
+            "match": {
+              "location": "StepDef_Form.he_save_the_form_after_click_on_the_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5067630000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user refresh the page",
+            "match": {
+              "location": "StepDef_Form.user_refresh_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5427002200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user validate the reloaded values",
+            "match": {
+              "location": "StepDef_Form.user_validate_the_reloaded_values()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 923996200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user close the browser",
+            "match": {
+              "location": "StepDef_Form.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User logs in the BGP Portal",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17397362600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to MRA form page after login",
+            "match": {
+              "location": "StepDef_Form.user_navigates_to_MRA_form_page_after_login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "To do form submission after giving mandatory details and review",
+        "description": "",
+        "id": "mra-form;to-do-form-submission-after-giving-mandatory-details-and-review",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5689486000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user select the answer to each mandatory question",
+            "match": {
+              "location": "StepDef_Form.he_select_the_answer_to_each_mandatory_question()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157139800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user save the form after click on the button",
+            "match": {
+              "location": "StepDef_Form.he_save_the_form_after_click_on_the_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166166800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user navigates to contact details sections",
+            "match": {
+              "location": "StepDef_Form.user_navigates_to_contact_details_sections_after_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11814112800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user validates Main contact person subsection with inputs",
+            "match": {
+              "location": "StepDef_Form.user_validates_main_contact_person_subsection_with_inputs()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103703200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user checks that Block House No and Street details auto populates with Valid postal code",
+            "match": {
+              "location": "StepDef_Form.user_checks_that_block_house_no_and_street_details_auto_populates_with_valid_postal_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 264027000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "on clicking checkbox Same as registered address in Company Profile user validates auto population of Mailing address",
+            "match": {
+              "location": "StepDef_Form.on_clicking_checkbox_same_as_registered_address_in_company_profile_user_validates_auto_population_of_mailing_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 687661200,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user validates Letter of Offer Addressee subsection with input",
+            "match": {
+              "location": "StepDef_Form.user_validates_letter_of_offer_addressee_subsection_with_input()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5208412300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user validates option for same as main contact person with auto populate",
+            "match": {
+              "location": "StepDef_Form.user_validates_option_for_same_as_main_contact_person_with_auto_populate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98824800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user save the form after click on the button",
+            "match": {
+              "location": "StepDef_Form.he_save_the_form_after_click_on_the_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44476812000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user fills information in all section but leaves one mandatory information unfilled",
+            "match": {
+              "location": "StepDef_Form.user_fills_information_in_all_section_but_leaves_one_mandatory_information_unfilled()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5317117000,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c...St4rwUG/form/project[]\u003e but was:\u003c...St4rwUG/form/project[_impact]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.StepDef_Form.user_saves_and_click_on_review_after_which_user_validates_the_error_and_validates_the_page_redirected_to(StepDef_Form.java:355)\r\n\tat ✽.And user saves and click on Review after which user validates the error and validates the page redirected to(MRAForm.feature:41)\r\n",
+              "status": "failed"
+            },
+            "line": 41,
+            "name": "user saves and click on Review after which user validates the error and validates the page redirected to",
+            "match": {
+              "location": "StepDef_Form.user_saves_and_click_on_review_after_which_user_validates_the_error_and_validates_the_page_redirected_to()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "user fills all mandatory details and click on Review button in Declare and Review section",
+            "match": {
+              "location": "StepDef_Form.user_fills_all_mandatory_details_and_click_on_review_button_in_declare_and_review_section()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "user is navigated to read only summary page and he validates the page values",
+            "match": {
+              "location": "StepDef_Form.user_is_navigated_to_read_only_summary_page_and_he_validates_the_page_values()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "user clicks on Consent and Acknowledgement checkbox and he gets a message of submission",
+            "match": {
+              "location": "StepDef_Form.user_clicks_on_consent_and_acknowledgement_checkbox_and_he_gets_a_message_of_submission()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "user checks if his application is under Processing tab in Grants dashboard",
+            "match": {
+              "location": "StepDef_Form.user_checks_if_his_application_is_under_processing_tab_in_grants_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "user close the browser",
+            "match": {
+              "location": "StepDef_Form.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "MRA form",
+    "description": "",
+    "id": "mra-form",
+    "keyword": "Feature",
+    "uri": "MRAForm.feature"
+  }
+]

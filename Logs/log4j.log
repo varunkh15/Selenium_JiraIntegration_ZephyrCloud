@@ -1,0 +1,164 @@
+[66] [20/08/12 15:59:08] INFO Config: ------------------initilizing----------------
+[57] [20/08/12 15:59:10] INFO Config: Unable to load properties file
+[136] [20/08/12 15:59:10] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@5149d738
+[137] [20/08/12 15:59:10] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/17 15:46:24] INFO Config: ------------------initilizing----------------
+[57] [20/08/17 15:46:26] INFO Config: Unable to load properties file
+[136] [20/08/17 15:46:26] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@5149d738
+[137] [20/08/17 15:46:26] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/17 15:48:21] INFO Config: ------------------initilizing----------------
+[57] [20/08/17 15:48:23] INFO Config: Unable to load properties file
+[136] [20/08/17 15:48:23] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@2e54db99
+[137] [20/08/17 15:48:23] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/17 21:47:04] INFO Config: ------------------initilizing----------------
+[37] [20/08/17 21:47:06] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL/versions, status=401, reason=Unauthorized}}
+[57] [20/08/17 21:47:06] INFO Config: Unable to load properties file
+[37] [20/08/17 21:47:06] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/issue/?fields=id, status=401, reason=Unauthorized}}
+[136] [20/08/17 21:47:06] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@4716be8b
+[137] [20/08/17 21:47:06] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/17 21:58:57] INFO Config: ------------------initilizing----------------
+[37] [20/08/17 21:58:59] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL/versions, status=401, reason=Unauthorized}}
+[57] [20/08/17 21:58:59] INFO Config: Unable to load properties file
+[37] [20/08/17 21:58:59] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/issue/?fields=id, status=401, reason=Unauthorized}}
+[136] [20/08/17 21:58:59] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@4716be8b
+[137] [20/08/17 21:58:59] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/17 22:00:12] INFO Config: ------------------initilizing----------------
+[37] [20/08/17 22:00:14] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL/versions, status=401, reason=Unauthorized}}
+[57] [20/08/17 22:00:14] INFO Config: Unable to load properties file
+[37] [20/08/17 22:00:14] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/issue/?fields=id, status=401, reason=Unauthorized}}
+[136] [20/08/17 22:00:14] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@40147317
+[137] [20/08/17 22:00:14] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/17 22:01:42] INFO Config: ------------------initilizing----------------
+[37] [20/08/17 22:01:45] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL/versions, status=401, reason=Unauthorized}}
+[57] [20/08/17 22:01:45] INFO Config: Unable to load properties file
+[37] [20/08/17 22:01:45] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/issue/?fields=id, status=401, reason=Unauthorized}}
+[136] [20/08/17 22:01:45] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@40147317
+[137] [20/08/17 22:01:45] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/17 22:01:59] INFO Config: ------------------initilizing----------------
+[37] [20/08/17 22:02:58] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL/versions, status=401, reason=Unauthorized}}
+[57] [20/08/17 22:02:58] INFO Config: Unable to load properties file
+[66] [20/08/17 22:04:11] INFO Config: ------------------initilizing----------------
+[66] [20/08/18 20:33:15] INFO Config: ------------------initilizing----------------
+[37] [20/08/18 20:33:17] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL/versions, status=401, reason=Unauthorized}}
+[57] [20/08/18 20:33:17] INFO Config: Unable to load properties file
+[37] [20/08/18 20:33:17] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/issue/?fields=id, status=401, reason=Unauthorized}}
+[136] [20/08/18 20:33:17] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@4716be8b
+[137] [20/08/18 20:33:17] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/18 23:35:29] INFO Config: ------------------initilizing----------------
+[37] [20/08/18 23:35:31] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL/versions, status=401, reason=Unauthorized}}
+[57] [20/08/18 23:35:31] INFO Config: Unable to load properties file
+[136] [20/08/18 23:35:31] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@147a5d08
+[137] [20/08/18 23:35:31] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/22 13:06:32] INFO Config: ------------------initilizing----------------
+[37] [20/08/22 13:06:38] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL/versions, status=401, reason=Unauthorized}}
+[57] [20/08/22 13:06:38] INFO Config: Unable to load properties file
+[136] [20/08/22 13:06:38] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@147a5d08
+[137] [20/08/22 13:06:38] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/22 13:17:13] INFO Config: ------------------initilizing----------------
+[37] [20/08/22 13:17:18] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL/versions, status=401, reason=Unauthorized}}
+[57] [20/08/22 13:17:18] INFO Config: Unable to load properties file
+[136] [20/08/22 13:17:18] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@147a5d08
+[137] [20/08/22 13:17:18] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/22 13:20:54] INFO Config: ------------------initilizing----------------
+[37] [20/08/22 13:20:59] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/08/22 13:20:59] INFO Config: Unable to load properties file
+[136] [20/08/22 13:21:00] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@147a5d08
+[137] [20/08/22 13:21:00] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/25 11:30:20] INFO Config: ------------------initilizing----------------
+[37] [20/08/25 11:30:23] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/08/25 11:30:23] INFO Config: Unable to load properties file
+[136] [20/08/25 11:30:23] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@147a5d08
+[137] [20/08/25 11:30:23] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/25 12:35:13] INFO Config: ------------------initilizing----------------
+[37] [20/08/25 12:35:16] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/08/25 12:35:16] INFO Config: Unable to load properties file
+[136] [20/08/25 12:35:16] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@199e4c2b
+[137] [20/08/25 12:35:16] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/25 12:35:37] INFO Config: ------------------initilizing----------------
+[37] [20/08/25 12:35:39] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/08/25 12:35:39] INFO Config: Unable to load properties file
+[136] [20/08/25 12:35:39] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@199e4c2b
+[137] [20/08/25 12:35:39] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/25 12:36:07] INFO Config: ------------------initilizing----------------
+[37] [20/08/25 12:36:09] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/08/25 12:36:09] INFO Config: Unable to load properties file
+[136] [20/08/25 12:36:09] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@199e4c2b
+[137] [20/08/25 12:36:09] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/25 12:38:05] INFO Config: ------------------initilizing----------------
+[37] [20/08/25 12:39:04] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/08/25 12:39:04] INFO Config: Unable to load properties file
+[136] [20/08/25 12:39:04] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@2237bada
+[137] [20/08/25 12:39:04] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/25 15:40:23] INFO Config: ------------------initilizing----------------
+[37] [20/08/25 15:40:25] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/08/25 15:40:25] INFO Config: Unable to load properties file
+[136] [20/08/25 15:40:25] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@147a5d08
+[137] [20/08/25 15:40:25] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/25 15:41:18] INFO Config: ------------------initilizing----------------
+[66] [20/08/25 15:43:07] INFO Config: ------------------initilizing----------------
+[37] [20/08/25 15:43:25] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/08/25 15:43:25] INFO Config: Unable to load properties file
+[136] [20/08/25 15:43:30] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@199e4c2b
+[137] [20/08/25 15:43:30] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/25 15:45:00] INFO Config: ------------------initilizing----------------
+[37] [20/08/25 15:45:09] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/08/25 15:45:09] INFO Config: Unable to load properties file
+[136] [20/08/25 15:46:35] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@199e4c2b
+[137] [20/08/25 15:46:35] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/25 15:47:36] INFO Config: ------------------initilizing----------------
+[37] [20/08/25 15:47:38] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/08/25 15:47:38] INFO Config: Unable to load properties file
+[136] [20/08/25 15:47:38] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@7cbd9d24
+[137] [20/08/25 15:47:38] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/25 15:47:49] INFO Config: ------------------initilizing----------------
+[66] [20/08/25 15:47:59] INFO Config: ------------------initilizing----------------
+[37] [20/08/25 15:48:12] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/08/25 15:48:12] INFO Config: Unable to load properties file
+[66] [20/08/25 15:49:11] INFO Config: ------------------initilizing----------------
+[37] [20/08/25 15:49:13] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/08/25 15:49:13] INFO Config: Unable to load properties file
+[66] [20/08/25 15:49:28] INFO Config: ------------------initilizing----------------
+[37] [20/08/25 15:49:30] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/08/25 15:49:30] INFO Config: Unable to load properties file
+[66] [20/08/25 15:49:53] INFO Config: ------------------initilizing----------------
+[37] [20/08/25 15:49:56] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/08/25 15:49:56] INFO Config: Unable to load properties file
+[66] [20/08/25 15:50:10] INFO Config: ------------------initilizing----------------
+[37] [20/08/25 15:50:12] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/08/25 15:50:12] INFO Config: Unable to load properties file
+[66] [20/08/25 15:50:34] INFO Config: ------------------initilizing----------------
+[37] [20/08/25 15:50:36] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/08/25 15:50:36] INFO Config: Unable to load properties file
+[66] [20/08/25 15:50:58] INFO Config: ------------------initilizing----------------
+[37] [20/08/25 15:51:00] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/08/25 15:51:00] INFO Config: Unable to load properties file
+[66] [20/08/25 15:52:11] INFO Config: ------------------initilizing----------------
+[136] [20/08/25 15:52:34] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@64d7b720
+[137] [20/08/25 15:52:34] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/25 15:52:56] INFO Config: ------------------initilizing----------------
+[37] [20/08/25 15:52:58] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/08/25 15:52:58] INFO Config: Unable to load properties file
+[136] [20/08/25 15:52:58] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@7cbd9d24
+[137] [20/08/25 15:52:58] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/08/25 15:53:04] INFO Config: ------------------initilizing----------------
+[66] [20/08/25 16:03:11] INFO Config: ------------------initilizing----------------
+[37] [20/08/25 16:03:42] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/08/25 16:03:42] INFO Config: Unable to load properties file
+[66] [20/08/26 14:33:06] INFO Config: ------------------initilizing----------------
+[37] [20/08/26 14:36:18] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/08/26 14:36:18] INFO Config: Unable to load properties file
+[66] [20/08/26 14:38:26] INFO Config: ------------------initilizing----------------
+[37] [20/08/26 14:38:30] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/08/26 14:38:30] INFO Config: Unable to load properties file
+[37] [20/08/26 14:38:30] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/issue/?fields=id, status=401, reason=Unauthorized}}
+[66] [20/08/26 14:39:04] INFO Config: ------------------initilizing----------------
+[66] [20/08/28 22:43:05] INFO Config: ------------------initilizing----------------
+[37] [20/08/28 22:43:07] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/08/28 22:43:07] INFO Config: Unable to load properties file
+[136] [20/08/28 22:43:07] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@7cbd9d24
+[137] [20/08/28 22:43:07] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status
+[66] [20/09/01 13:16:01] INFO Config: ------------------initilizing----------------
+[37] [20/09/01 13:16:03] INFO ZephyrTestCaseManagementCloud: GET : InboundJaxrsResponse{ClientResponse{method=GET, uri=https://selniumjira.atlassian.net/rest/api/2/project/SEL, status=401, reason=Unauthorized}}
+[57] [20/09/01 13:16:03] INFO Config: Unable to load properties file
+[136] [20/09/01 13:16:03] INFO ZephyrTestCaseManagementCloud: [Ljava.lang.StackTraceElement;@73302995
+[137] [20/09/01 13:16:03] INFO ZephyrTestCaseManagementCloud: Unable to Update the Test case and step status

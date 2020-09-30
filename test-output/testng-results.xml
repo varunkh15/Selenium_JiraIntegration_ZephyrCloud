@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10342" started-at="2020-09-06T13:44:59 GMT+08:00" finished-at="2020-09-06T13:45:10 GMT+08:00">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10342" started-at="2020-09-06T13:44:59 GMT+08:00" finished-at="2020-09-06T13:45:10 GMT+08:00">
+      <class name="GetJiraAPI.ExecuteJiraStatus">
+        <test-method status="PASS" signature="UpdateExecutionStatus()[pri:2, instance:GetJiraAPI.ExecuteJiraStatus@58c1c010]" name="UpdateExecutionStatus" duration-ms="10268" started-at="2020-09-06T13:44:59 GMT+08:00" finished-at="2020-09-06T13:45:10 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateExecutionStatus -->
+      </class> <!-- GetJiraAPI.ExecuteJiraStatus -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
