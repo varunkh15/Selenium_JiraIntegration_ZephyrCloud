@@ -2,6 +2,8 @@ package GetJiraAPI;
 
 import static io.restassured.RestAssured.given;
 import java.net.URISyntaxException;
+import java.util.List;
+
 import org.testng.annotations.Test;
 import com.thed.zephyr.cloud.rest.client.JWTGetExecutionList;
 import com.thed.zephyr.cloud.rest.client.JWTUpdateExecution;
@@ -21,10 +23,10 @@ public class ExecuteJiraStatus {
 		String JwtToken;
 		JWTUpdateExecution j = new JWTUpdateExecution();
 		JwtToken = j.JWTToken();
+		//System.out.println(JwtToken);
 		return JwtToken;
 	}
 
-	@Test(priority=1)
 	public String getExecutionList() throws URISyntaxException {
 		String token = getJWT();
 		RestAssured.baseURI = "https://prod-api.zephyr4jiracloud.com";
@@ -32,17 +34,23 @@ public class ExecuteJiraStatus {
 		Response response = given().header("Authorization",new String(token))
 				.header("zapiAccessKey","M2I5MTZiODgtYjUyZC0zODZiLThhOGUtOTk1YmJhNGFhMzQ3IDU1NzA1OCUzQWI0M2QwYTczLWI3NjMtNGRkZS05YTI2LTA1OTQ5NWIyYjIzZiBVU0VSX0RFRkFVTFRfTkFNRQ")
 				.when().get("/connect/public/rest/api/1.0/executions?issueId=10001&projectId=10000");
-
+        
 		String executionId = response.jsonPath().getString("executions[2].execution.id");
-		//	System.out.println(executionId);
-		//	response.prettyPrint();	
+	/*
+		List<String> list= response.jsonPath().getList("executions");
+		 
+		 list.forEach(l->{
+			 System.out.println(l);
+		 });
+ */
+		 System.out.println(executionId);
 			return executionId;
 	}
-	@Test(priority=2)
 	public void UpdateExecutionStatus() throws URISyntaxException{
 		String token = postJWT();
-	    String getExecutionid = "[\""+getExecutionList()+"\"]";
-		//System.out.println(s3);
+	  String getExecutionid = "[\""+getExecutionList()+"\"]";
+	//	String getExecutionid = "[\"85da0bd4-1994-4b05-914b-0c9c22d6dd8a\"]";
+		System.out.println(getExecutionid);
 		RestAssured.baseURI = "https://prod-api.zephyr4jiracloud.com";
 		Response response =	given()
 		.header("Authorization",new String(token))
@@ -53,5 +61,11 @@ public class ExecuteJiraStatus {
 		.post("/connect/public/rest/api/1.0/executions");	
 	//	body(sample.payload.AddPlace())		
 		response.prettyPrint();
+	}
+	public static void main(String args[]) throws URISyntaxException
+	{
+		ExecuteJiraStatus e = new ExecuteJiraStatus();
+	//	e.getExecutionList();
+		e.UpdateExecutionStatus();
 	}
 }
